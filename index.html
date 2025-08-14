@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DxBuilders — Remodel & Handyman</title>
+  <meta name="description" content="DxBuilders — Remodel & Handyman services in Washington. Quality repairs, renovations, and property maintenance." />
+  <link rel="icon" href="assets/images/logo.webp">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <img src="assets/images/logo.webp" alt="DxBuilders logo">
+      <strong>DxBuilders</strong>
+      <span class="pill">Remodel & Handyman</span>
+      <div class="spacer"></div>
+      <a href="#services">Services</a>
+      <a href="#about">Who we are</a>
+      <a href="#contact" class="btn" style="padding:8px 14px;">Contact us</a>
+    </nav>
+  </header>
+
+  <!-- Moving banner -->
+  <div class="banner-wrap" aria-label="Showcase of DxBuilders projects">
+    <div class="banner" id="banner">
+      <div class="marquee">
+        <img src="assets/images/banner_1.webp" alt="Project photo 1"><img src="assets/images/banner_2.webp" alt="Project photo 2"><img src="assets/images/banner_3.webp" alt="Project photo 3"><img src="assets/images/banner_4.webp" alt="Project photo 4"><img src="assets/images/banner_5.webp" alt="Project photo 5"><img src="assets/images/banner_6.webp" alt="Project photo 6">
+      </div>
+      <div class="marquee">
+        <img src="assets/images/banner_1.webp" alt="Project photo 1 duplicate"><img src="assets/images/banner_2.webp" alt="Project photo 2 duplicate"><img src="assets/images/banner_3.webp" alt="Project photo 3 duplicate"><img src="assets/images/banner_4.webp" alt="Project photo 4 duplicate"><img src="assets/images/banner_5.webp" alt="Project photo 5 duplicate"><img src="assets/images/banner_6.webp" alt="Project photo 6 duplicate">
+      </div>
+    </div>
+  </div>
+
+  <section id="services">
+    <h2>Services</h2>
+    <p class="lead">From punch‑list fixes to full room refreshes, we deliver clean, code‑compliant work with clear timelines and honest pricing.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Interior</h3>
+        <ul>
+          <li>Drywall repair & texture match</li>
+          <li>Trim, doors & hardware</li>
+          <li>Kitchen & bath updates</li>
+          <li>Painting & touch‑ups</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Exterior</h3>
+        <ul>
+          <li>Gutter cleaning & repairs</li>
+          <li>Deck cleaning / re‑stain</li>
+          <li>Siding & window repairs</li>
+          <li>Pressure washing</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Electrical & Plumbing (minor)</h3>
+        <ul>
+          <li>Fixture swaps & smart devices</li>
+          <li>Garbage disposal & faucet installs</li>
+          <li>GFCI/outlet replacements</li>
+          <li>Leak checks & caulking</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Property Maintenance</h3>
+        <ul>
+          <li>Move‑in/move‑out punch</li>
+          <li>Seasonal yard care</li>
+          <li>Crawlspace & vent screens</li>
+          <li>Real‑estate ready refresh</li>
+        </ul>
+      </div>
+    </div>
+    <span class="tag">Licensed & Insured • Washington</span>
+  </section>
+
+  <section id="about">
+    <h2>Who we are</h2>
+    <p class="lead">
+      DxBuilders is a family‑run remodel & handyman company based in the Seattle area. We bring the care of a small shop and the standards of a professional contractor: detailed scopes, tidy job sites, and work that lasts.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3>Our promise</h3>
+        <p>Clear communication, tidy workmanship, and fair, transparent pricing on every project.</p>
+      </div>
+      <div class="card">
+        <h3>Where we work</h3>
+        <p>Seattle • Mukilteo • Everett • Lynnwood • Bellevue • Eastside</p>
+      </div>
+      <div class="card">
+        <h3>How we work</h3>
+        <p>We start with photos or a quick visit, send a written scope & estimate, then schedule at your convenience.</p>
+      </div>
+    </div>
+  </section>
+
+<section id="contact">
+  <h2>Contact us</h2>
+  <p class="lead">Tell us about your project. We'll reply with next steps and a quick estimate.</p>
+
+  <div class="contact-layout">
+    <form id="contactForm">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button class="btn" type="submit">Send</button>
+      <p class="mini">Prefer email? <a href="mailto:dx.buildersllc@gmail.com">dx.buildersllc@gmail.com</a></p>
+    </form>
+
+    <div class="social-links vertical">
+      <a href="https://www.instagram.com/dx.buildersllc" target="_blank" rel="noopener">
+        <img src="assets/images/Instagram_icon.png" alt="Instagram_icon" class="limited-img">
+      </a>
+      <a href="https://wa.me/+12066641443" target="_blank" rel="noopener">
+        <img src="assets/images/whatsapp.webp" alt="Whatsapp_icon" class="limited-img">
+      </a>
+      <a href="tel:+12066641443">
+        <img src="assets/images/phone.png" alt="phone_icon" class="limited-img">
+      </a>
+    </div>
+  </div>
+</section>
+</section>
+
+  <footer>
+    © <span id="year"></span> DxBuilders LLC • Remodel & Handyman
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

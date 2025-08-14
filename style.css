@@ -311,29 +311,39 @@ label {
 
 .contact-layout {
   display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* centers vertically */
+  min-height: 100vh;         /* makes the container fill the screen height */
   gap: 40px;
-  align-items: flex-start;
   flex-wrap: wrap;
-  margin-top: 32px;
+  margin-top: 0;              /* remove top margin so it truly centers */
 }
 
 .contact-layout form {
-  flex: 1 1 360px;
-}
-
-.contact-layout .social-links.vertical {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  flex: 0 0 180px;
-}
-
-.contact-layout .social-links.vertical a {
-  justify-content: flex-start;
+  max-width: 500px;           /* optional: controls form width */
+  width: 100%;
 }
 
 .limited-img {
-  max-width: 60%;
+  max-width: 100%;
   height: auto;
   border-radius: 12px; /* optional */
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 12px;
+}
+
+.footer-icons img {
+  height: 32px;
+  width: 32px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.footer-icons img:hover {
+  transform: scale(1.1);
 }
